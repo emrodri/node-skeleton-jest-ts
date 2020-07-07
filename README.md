@@ -48,5 +48,22 @@ Add to scripts in package.json run scripts:
 ### Initialize express app and create health check controller
 
 Add express application in app/app.ts
-Add health-check controller in app/controllers/healt_check.controller.ts
 
+Add health-check controller in app/controllers/healt_check.
+controller.ts
+
+### Add Jest and health check controller test
+
+Add Jest
+
+`npm i -D jest @types/jest ts-jest`
+
+Add test script to package.json
+
+`"test": "jest"`
+
+Init jest-ts config
+
+`npx ts-jest config:init`
+
+Create a test for health_check.controller

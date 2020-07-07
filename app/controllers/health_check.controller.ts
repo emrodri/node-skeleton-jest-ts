@@ -1,5 +1,7 @@
 import { Request, Response } from 'express';
 
-export const healthCheckController = (req: Request, res: Response) => {
-  res.json('Running App Ok!');
+export const healthCheckController = {
+  getHealthCheck: (req: Request, res: Response) => {
+    res.json('Running App Ok!');
+  },
 };
