@@ -45,3 +45,8 @@ Add to scripts in package.json run scripts:
  "prod": "tsc && node ./build/app.js",
  ```
 
+### Initialize express app and create health check controller
+
+Add express application in app/app.ts
+Add health-check controller in app/controllers/healt_check.controller.ts
+
